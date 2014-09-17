@@ -45,6 +45,10 @@ img {
     text-decoration: none;
 }
 
+    .background {
+        background color: #ddd;
+        padding:0;
+
 @media only screen and (min-width: 15em) {
     
     .nav {
@@ -55,22 +59,9 @@ img {
         display: inline-block;
         border: 0;
     }
-}
-
-@media only screen and (min-width: 30em) {
     
-    .nav {
-        float: left;
-        width: 30%;
-    }
 
-    .nav li {
-        display: block;
-    }
-    
-}
-
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 44.93em) {
     
     .jupiter {
         float: left;
@@ -78,4 +69,5 @@ img {
     
    .nav li {
        display: inline-block;
+   }
 }
