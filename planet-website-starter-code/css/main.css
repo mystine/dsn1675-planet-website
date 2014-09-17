@@ -29,3 +29,12 @@ img {
   display: block;
   width: 100%;
 }
+
+.jupiter {
+    text-align: center;
+}
+
+.nav {
+    text-decoration: none;
+    text-underline-position: none;
+}
