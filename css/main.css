@@ -40,3 +40,42 @@ img {
     padding: 0;
     list-style-type: none;
 }
+
+.nav a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 15em) {
+    
+    .nav {
+        text-align: center;
+    }
+    
+    .nav li {
+        display: inline-block;
+        border: 0;
+    }
+}
+
+@media only screen and (min-width: 30em) {
+    
+    .nav {
+        float: left;
+        width: 30%;
+    }
+
+    .nav li {
+        display: block;
+    }
+    
+}
+
+@media only screen and (min-width: 45em) {
+    
+    .jupiter {
+        float: left;
+    }  
+    
+   .nav li {
+       display: inline-block;
+}
