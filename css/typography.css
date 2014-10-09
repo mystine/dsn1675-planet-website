@@ -9,8 +9,8 @@ fieldset, pre, table {
   margin: 0 0 1.5rem;
 }
 
-.jupiter {
-  font-size: 1.2807rem;
+.yotta {
+  font-size: 2.2807rem;
   line-height: 1.3154;
 }
 
@@ -49,7 +49,7 @@ h6, .kilo {
   line-height: 1.5000;
 }
 
-small, .milli {
+small, .jupiter {
   font-size: 0.8889rem;
   line-height: 1.6875;
 }
