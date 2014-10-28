@@ -17,21 +17,23 @@ html {
 
 @media only screen and (min-width: 60em){
     
-html {
+    html {
     font-size: 110%;
+    }
 }
 
 @media only screen and (min-width: 90em){
     
-html {
+    html {
     font-size: 120%;
+    }
 }
-    
+
 @media only screen and (min-width: 120em){
 
-html {
+    html {
     font-size: 130%
-}
+    }
     
 }
     
@@ -54,8 +56,6 @@ body {
 }
 
 .title {
-  display: block;
-  margin: 0;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ body {
     text-align: center;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 25em){
 
 .nav {
     text-align: center;
