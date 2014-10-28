@@ -119,8 +119,6 @@
 
 .unit-s-1-2 {
   width: 50.0000%;
-  float: left;
-  padding: 1em;
 }
 
 .unit-offset-s-1-2 {
@@ -172,7 +170,7 @@
   display: none;
   visibility: hidden;
 }
-    
+
 .unit-m-1 {
   display: block;
   visibility: visible;
@@ -184,7 +182,7 @@
 }
 
 .unit-m-1-2 {
-  width: 50%;
+  width: 50.0000%;
 }
 
 .unit-offset-m-1-2 {
@@ -193,8 +191,6 @@
 
 .unit-m-1-3 {
   width: 33.3333%;
-  float: left;
-  padding: 1em;
 }
 
 .unit-offset-m-1-3 {
@@ -228,6 +224,8 @@
 .unit-m-1-2,.unit-m-1-3,.unit-m-2-3,.unit-m-1-4,.unit-m-3-4 {
   display: inline-block;
   visibility: visible;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
