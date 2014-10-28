@@ -9,13 +9,32 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em){
+    
+html {
+    font-size: 110%;
+}
+
+@media only screen and (min-width: 90em){
+    
+html {
+    font-size: 120%;
+}
+    
+@media only screen and (min-width: 120em){
+
+html {
+    font-size: 130%
+}
+    
+}
+    
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -25,49 +44,148 @@ body {
   padding: 0;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
 }
 
-.jupiter {
-    text-align: center;
-    margin: 0;
+.masthead {
+  overflow: hidden;
 }
 
-.background {
-    background-color: #aaa;
-    overflow: hidden;
+.title {
+  display: block;
+  margin: 0;
+  text-align: center;
 }
 
 .nav {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
 }
 
-.nav a {
-    text-decoration: none;
+.nav li {
+  display: block;
 }
 
-@media only screen and (min-width: 15em) {
-    
-    .nav {
-        text-align: center;
-    }
-    
-    .nav li {
-        display: inline-block;
-        border: 0;
-    }
-    
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
 
-@media only screen and (min-width: 44.93em) {
+  color: #0074D9;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #0074D9;
+
+  color: #fff;
+}
     
-    .jupiter {
-        float: left;
-    }  
+.section-dark {
+    background-color: #ccc;
+}
     
-   .nav {
-       float: left;
-   }
+.section-mid {
+    background-color: #e2e2e2;
+}
+    
+.section {
+    background-color: #efefef;
+}
+    
+.intro {
+    text-align: center;
+}
+    
+.discovery-title-extra {
+    display: none;
+}
+    
+.copyright {
+    text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+.nav {
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+    
+.nav-footer a,
+.nav-footer a:link,
+.nav-footer a:visited {
+    display: inline-block;
+}
+
+.nav-footer li::after {
+    content: ".";
+    display: inline-block;
+    width: 0.5em;
+    color: #666;
+    text-align: right;
+}
+    
+.nav-footer li:last-child::after {
+    content: none;
+}
+    
+.discovery-title-extra {
+    display: inline;
+}
+
+}
+    
+@media only screen and (min-width: 38em) {
+
+.title 
+.nav {
+    text-align: left;
+}
+    
+.discovery-text {
+    padding-right: 1.5rem;
+}
+    
+.copyright {
+    text-align: left;
+}
+    
+.nav-footer {
+    text-align: right;
+}
+
+}
+    
+@media only screen and (min-width: 60em) {
+    
+.moon-text {
+    padding-left: 1.5rem;
+}
+
+.stats {
+    overflow: hidden;
+}
+    
+.stats > dt {
+    clear: left;
+    float: left;
+    margin-right: 0.75rem;
+    width: 11em;
+}
+    
+.stats > dd {
+    float: left;
+}
+    
+.discovery-text {
+    padding-left: 1.5rem;
+}
+    
 }
