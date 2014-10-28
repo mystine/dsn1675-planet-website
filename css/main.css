@@ -60,6 +60,7 @@ a:focus {
     background-color: #fff;
     color: #000;
     padding: 0.5em 0.75em;
+    text-decoration: none;
 }
     
 .skip-links a:focus {
