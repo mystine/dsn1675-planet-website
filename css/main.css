@@ -21,6 +21,7 @@ label {
 
 input + label {
     display: inline-block;
+
 }
 
 .background {
@@ -44,6 +45,15 @@ button {
     text-align: center;
     font-weight: bold;
     font-size: 1em;
+}
+
+textarea {
+    height: 10em;
+}
+
+.radio {
+    white-space: nowrap;
+   
 }
 
 @media only screen and (min-width: 60em){
