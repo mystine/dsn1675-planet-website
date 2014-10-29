@@ -17,14 +17,16 @@ html {
 
 @media only screen and (min-width: 60em){
     
-html {
-    font-size: 110%;
+    html {
+        font-size: 110%;
+    }
 }
 
 @media only screen and (min-width: 90em){
     
-html {
-    font-size: 120%;
+    html {
+        font-size: 120%;
+    }
 }
     
 @media only screen and (min-width: 120em){
@@ -133,82 +135,82 @@ a:focus {
 
 @media only screen and (min-width: 25em) {
 
-.nav {
-    text-align: center;
-}
+    .nav {
+        text-align: center;
+    }
 
-.nav li {
-    display: inline-block;
-}
-    
-.nav-footer a,
-.nav-footer a:link,
-.nav-footer a:visited {
-    display: inline-block;
-}
+    .nav li {
+        display: inline-block;
+    }
 
-.nav-footer li::after {
-    content: ".";
-    display: inline-block;
-    width: 0.5em;
-    color: #666;
-    text-align: right;
-}
-    
-.nav-footer li:last-child::after {
-    content: none;
-}
-    
-.discovery-title-extra {
-    display: inline;
-}
+    .nav-footer a,
+    .nav-footer a:link,
+    .nav-footer a:visited {
+        display: inline-block;
+    }
+
+    .nav-footer li::after {
+        content: ".";
+        display: inline-block;
+        width: 0.5em;
+        color: #666;
+        text-align: right;
+    }
+
+    .nav-footer li:last-child::after {
+        content: none;
+    }
+
+    .discovery-title-extra {
+        display: inline;
+    }
 
 }
     
 @media only screen and (min-width: 38em) {
 
-.title 
-.nav {
-    text-align: left;
-}
-    
-.discovery-text {
-    padding-right: 1.5rem;
-}
-    
-.copyright {
-    text-align: left;
-}
-    
-.nav-footer {
-    text-align: right;
-}
+    .title 
+    .nav {
+        text-align: left;
+    }
+
+    .discovery-text {
+        padding-right: 1.5rem;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+
+    .nav-footer {
+        text-align: right;
+    }
 
 }
     
 @media only screen and (min-width: 60em) {
     
-.moon-text {
-    padding-left: 1.5rem;
-}
+    .moon-text {
+        padding-left: 1.5rem;
+    }
 
-.stats {
-    overflow: hidden;
-}
-    
-.stats > dt {
-    clear: left;
-    float: left;
-    margin-right: 0.75rem;
-    width: 11em;
-}
-    
-.stats > dd {
-    float: left;
-}
-    
-.discovery-text {
-    padding-left: 1.5rem;
-}
+    .stats {
+        overflow: hidden;
+    }
+
+    .stats > dt {
+        clear: left;
+        float: left;
+        margin-right: 0.75rem;
+        width: 11em;
+    }
+
+    .stats > dd {
+        float: left;
+    }
+
+    .discovery-text {
+        padding-left: 1.5rem;
+    }
     
 }
