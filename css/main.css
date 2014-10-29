@@ -35,6 +35,17 @@ input + label {
     width: 100%;
 }
 
+form {
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
 @media only screen and (min-width: 60em){
     
     html {
