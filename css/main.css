@@ -23,6 +23,17 @@ input + label {
     display: inline-block;
 }
 
+.background {
+    background-color: #e2e2e2;
+}
+
+.center {
+    text-align: center;
+}
+
+.witdh {
+    width: 100%;
+}
 
 @media only screen and (min-width: 60em){
     
