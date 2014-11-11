@@ -90,7 +90,7 @@ body {
 a,
 a:link,
 a:visited {
-    color: #1bbf59;
+    color: #218547;
 }
 
 a:hover
@@ -162,7 +162,7 @@ a:focus {
 }
     
 .section-dark {
-    background-color: #ccc;
+    background-color: #c7e9c7;
 }
     
 .section-mid {
@@ -180,7 +180,53 @@ a:focus {
 .discovery-title-extra {
     display: none;
 }
-    
+
+.table-outer {
+    overflow-x: auto;
+}
+
+.table-inner {
+    margin: 0;
+    max-width: 60em;
+    min-width: 45em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 0.2rem;
+    text-align: left;
+}
+
+thead th {
+    background-color: #e2e2e2;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody th,
+tbody td {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.03em;
+    vertical-align: middle;
+}
+
+input,
+textarea {
+    margin: 0;
+    padding: 0.4em;
+    vertical-align: middle;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
 .copyright {
     text-align: center;
 }
