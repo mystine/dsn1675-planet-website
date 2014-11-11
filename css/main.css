@@ -90,7 +90,8 @@ body {
 a,
 a:link,
 a:visited {
-    color: #FFA500;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 a:hover
@@ -217,7 +218,6 @@ label {
     display: block;
     margin-bottom: 0.03em;
     vertical-align: middle;
-    border-color: transparent;
 }
 
 input,
@@ -226,7 +226,7 @@ textarea {
     padding: 0.4em;
     vertical-align: middle;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #FFA500;
     font-size: 1rem;
 }
 
@@ -245,6 +245,7 @@ textarea {
 
 .radio {
     white-space: nowrap;
+    font-weight: 300;
 }
 
 .radio input {
