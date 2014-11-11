@@ -90,7 +90,7 @@ body {
 a,
 a:link,
 a:visited {
-    color: #5F9EA0;
+    color: #FFA500;
 }
 
 a:hover
@@ -134,6 +134,8 @@ a:focus {
   display: block;
   margin: 0;
   text-align: center;
+  color: #000;
+    
 }
 
 .nav {
@@ -149,7 +151,7 @@ a:focus {
 .nav a:visited {
   display: block;
 
-  color: #FAEBD7;
+  color: #5F9EA0;
   text-decoration: none;
 }
 
@@ -166,11 +168,11 @@ a:focus {
 }
     
 .section-mid {
-    background-color: #e2e2e2;
+    background-color: #FFFFFF;
 }
     
 .section {
-    background-color: #efefef;
+    background-color: #FFFFFF;
 }
     
 .intro {
@@ -202,7 +204,7 @@ td {
 }
 
 thead th {
-    background-color: #e2e2e2;
+    background-color: #FFFFFF;
     border-bottom: 1px solid #ccc;
 }
 
@@ -215,6 +217,7 @@ label {
     display: block;
     margin-bottom: 0.03em;
     vertical-align: middle;
+    border-color: transparent;
 }
 
 input,
