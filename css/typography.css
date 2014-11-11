@@ -23,7 +23,6 @@ h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
   color: #FFA500;
-    font-weight: 200;
 }
 
 h2, .peta {
@@ -147,11 +146,12 @@ sub {
 h1, h2, h3, h4, h5, h6,
 .brand-family {
     font-family: "Oswald", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 .default-family {
     font-family: "Merriweather", serif;
+    font-weight: 600;
 }
 
 .bold {
