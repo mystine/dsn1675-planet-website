@@ -53,7 +53,7 @@ textarea {
 
 .radio {
     white-space: nowrap;
-   
+
 }
 
 @media only screen and (min-width: 60em){
@@ -87,6 +87,17 @@ body {
   padding: 0;
 }
     
+a,
+a:link,
+a:visited {
+    color: #1bbf59;
+}
+
+a:hover
+a:active {
+    outline: none;
+}
+
 a:focus {
     outline: 3px solid #000;
 }
