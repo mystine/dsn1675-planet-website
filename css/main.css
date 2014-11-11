@@ -227,6 +227,44 @@ textarea {
     font-size: 1rem;
 }
 
+fieldset {
+    padding: 0;
+    border: 0;
+}
+
+legend {
+    font-size: italic;
+}
+
+textarea {
+    height: 12em;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.radio input {
+    width: auto;
+}
+
+.radio label {
+    width: auto;
+}
+
+.radio label {
+    display: inline-block;
+    margin-right: 0.75rem;
+}
+
+.alright-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
 .copyright {
     text-align: center;
 }
