@@ -144,5 +144,21 @@ sub {
 
 h1, h2, h3, h4, h5, h6,
 .brand-family {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
+}
+
+.default-family {
+    font-family: "Merriweather", serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
 }
