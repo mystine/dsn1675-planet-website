@@ -159,7 +159,7 @@ a:focus {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #0074D9;
+  background-color: #000;
 
   color: #fff;
 }
